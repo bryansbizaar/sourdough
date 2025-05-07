@@ -4,106 +4,404 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sourdough Bread</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>How to Make Sourdough Bread</h1>
-    <p>This is based on the Tartine Method and will make two loaves.</p>
-    <h2>Ingredients</h2>
-    <ul>
-      <li>Strong white flour</li>
-      <li>Whole wheat flour</li>
-      <li>Sourdough starter</li>
-      <li>Water</li>
-      <li>Salt</li>
-    </ul>
-    <h2>Equipment</h2>
-    <ul>
-      <li>Large mixing bowl w/spoon</li>
-      <li>Medium mixing bowl for combining water</li>
-      <li>Large glass jar</li>
-      <li>Bench scraper</li>
-      <li>Proofing basket</li>
-      <li>Dutch oven</li>
-      <li>Kitchen scale</li>
-      <li>Thermometer</li>
-    </ul>
+    <div class="container">
+      <header class="header, header-title">
+        <h1>How to Make Sourdough Bread</h1>
+        <p class="description">This is based on the Tartine Method and will make two loaves.</p>
+      </header>
 
-    <h2>Day 1: Making the leaven</h2>
-    <p>In the evening, gather the ingredients and equipment.</p>
-    <ol>
-      <li>Place glass jar on scale, set it to zero</li>
-      <li>Add 100g of strong white flour</li>
-      <li>Add 100g of whole wheat flour</li>
-      <li>Add 200g of water</li>
-      <li>Add 1 tbsp of starter</li>
-      <li>Mix well, cover, and place a rubber band on the jar as a marker</li>
-      <li>
-        Let it sit overnight. The temperature will affect when the leaven is
-        ready, so adjust accordingly
-      </li>
-    </ol>
-    <h2>Day 2: Putting it all together</h2>
-    <p>
-      In the morning, check to see if the leaven has doubled. Put it in a warm
-      spot if it needs more time. You can begin the mixing process when it's
-      ready (it should float).
-    </p>
-    <ol>
-      <li>Place large mixing bowl on scale and set to zero</li>
-      <li>Add between 600-800g of strong white flour</li>
-      <li>Add remainder of whole wheat flour to total 1kg</li>
-      <li>Place medium mixing container on scale and set to zero</li>
-      <li>Add 600g of water</li>
-      <li>Add 200g of leaven</li>
-      <li>Set some leaven aside as your new starter and refrigerate</li>
-      <li>Mix leaven and water together, add to flour</li>
-      <li>
-        Combine the mix, let it sit for 25-30 minutes at approx. 78°F (26°C)
-      </li>
-      <li>
-        After the initial rest period, add 50g of water and 20g of salt and mix
-        thoroughly. Let it sit for another 25-30 minutes.
-      </li>
-    </ol>
-    <h2>Stretch and Fold</h2>
-    <p>
-      After the second rest, stretch and fold the dough in the bowl. Do this
-      every 30 minutes for approx. 3 hours. In between folds, cover with a damp
-      towel. Maintain the dough temperature at around 78°F (26°C).
-    </p>
-    <h3>Shaping the dough</h3>
-    <ol>
-      <li>
-        When the stretching and folding is complete, place mixture out onto a
-        floured surface
-      </li>
-      <li>Divide the dough in half</li>
-      <li>Spread out the dough</li>
-      <li>Fold it together from the sides</li>
-      <li>Bring it together into a ball</li>
-      <li>Gently form into a tight ball</li>
-      <li>
-        Let it sit for 30 minutes and repeat the shaping process (spreading,
-        folding, shaping etc.)
-      </li>
-      <li>
-        Place the dough seam side up in a floured proofing basket, cover and
-        refrigerate overnight
-      </li>
-    </ol>
-    <h2>Day 2: Baking</h2>
-    <p>
-      Preheat the oven to 500°F (260°C) with the Dutch oven inside for at least
-      one hour.
-    </p>
-    <ol>
-      <li>Dust the bottom of the loaf with corn flour</li>
-      <li>Place the loaf in the Dutch oven, score the top</li>
-      <li>Cover with lid and cook for 20 minutes</li>
-      <li>Remove the lid and lower the temperature to 400°F (200°C)</li>
-      <li>Cook for another 20 minutes without the lid</li>
-      <li>Remove from the oven and let it cool on a wire rack</li>
-      <li>Serve after a resting period (approx. 1-2 hrs.)</li>
-    </ol>
+      <main class="main, content-container">
+        <section class="recipe-section" , id="ingredients">
+          <h2 class="section-title">Ingredients</h2>
+          <ul>
+            <li>Strong white flour</li>
+            <li>Whole wheat flour</li>
+            <li>Sourdough starter</li>
+            <li>Water</li>
+            <li>Salt</li>
+          </ul>
+        </section>
+        <section class="recipe-section" , id="equipment">
+          <h2 id="equipment">Equipment</h2>
+          <ul>
+            <li>Large mixing bowl w/spoon</li>
+            <li>Medium mixing bowl for combining water</li>
+            <li>Large glass jar</li>
+            <li>Bench scraper</li>
+            <li>Proofing basket</li>
+            <li>Dutch oven</li>
+            <li>Kitchen scale</li>
+            <li>Thermometer</li>
+          </ul>
+        </section>
+        <section class="recipe-section" , id="instructions">
+          <h3>Day 1: Making the leaven</h3>
+          <p class="description">In the evening, gather the ingredients and equipment.</p>
+          <ol>
+            <li>
+                <p>Place glass jar on scale, set it to zero</p>
+                <img
+                  class="step-image"
+                  src="images/jar.jpeg"
+                  alt="Set the scale for the jar"
+                />
+            </li>
+            <li>
+                <p>Add 100g of strong white flour</p>
+                <img
+                  class="step-image"
+                  src="images/white-leaven.jpeg"
+                  alt="Add strong white flour to the jar"
+                />
+            </li>
+            <li>
+                <p>
+                  Add 100g of whole wheat flour. If you don't reset the scale,
+                  the total should now be 200g.
+                </p>
+                <img
+                  class="step-image"
+                  src="images/brown-leaven.jpeg"
+                  alt="Add whole wheat flour to the jar"
+                />
+            </li>
+            <li>
+                <p>
+                  Add 200g of water. If you don't reset the scale, the total
+                  should be 400g.
+                </p>
+                <img
+                  class="step-image"
+                  src="images/water-leaven.jpeg"
+                  alt="Add water to the jar"
+                />
+            </li>
+            <li>
+                <p>Add 1 tbsp of starter</p>
+                <img
+                  class="step-image"
+                  src="images/starter.jpeg"
+                  alt="Add starter to the jar"
+                />
+            </li>
+            <li>
+                <p>
+                  Mix well, cover with a lid, and place a rubber band on the jar as a marker.
+                </p>
+                <img
+                  class="step-image"
+                  src="images/leaven-mixed.jpeg"
+                  alt="Cover the jar with a lid"
+                />
+            </li>
+            </li>
+            <li>
+              <p class="step-content">Let it sit overnight in a warm spot (approx.
+              78°F/26°C). The temperature will affect when the leaven
+              is ready, so adjust accordingly</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="recipe-section" , id="instructions">
+        <h3>Day 2: Putting it all together</h3>
+        <ol>
+          <li>
+            <p>In the morning, check to see if the leaven has doubled. Put it in a
+            warm spot if it needs more time. You can begin the mixing process when
+            it's ready (it should float).</p>
+            <img
+              class="step-image"
+              src="images/leaven-doubled.jpeg"
+              alt="Leaven ready to use"
+            />
+          </li>
+          <li>
+            <p>Place large mixing bowl on scale and set to zero</p>
+            <img
+              class="step-image"
+              src="images/mixing-bowl.jpeg"
+              alt="Set the scale for the bowl"
+            />
+          </li>
+          <li>
+            <p>Add between 600-800g of strong white flour</p>
+            <img
+              class="step-image"
+              src="images/white-flour.jpeg"
+              alt="Add strong white flour to the bowl"
+            />
+          </li>
+          <li>
+            <p>Add remainder of whole wheat flour for a total of 1kg</p>
+            <img
+              class="step-image"
+              src="images/brown-flour.jpeg"
+              alt="Add whole wheat flour to the bowl"
+            />
+          </li>
+          <li>
+            <p>Place medium mixing container on scale and set to zero</p>
+            <img
+              class="step-image"
+              src="images/water-container.jpeg"
+              alt="Set the scale for empty container"
+            />
+          </li>
+          <li>
+            <p>Add 600g of water</p>
+            <img
+              class="step-image"
+              src="images/600g-water.jpeg"
+              alt="Add water to the container"
+            />
+          </li>
+          <li>
+            <p>Add 200g of leaven which should float. If you didn't reset the scale, the total should be 800g.</p>
+            <img
+              class="step-image"
+              src="images/add-leaven.jpeg"
+              alt="Add leaven to the container"
+            />
+          </li>
+          <li>
+            <p>Mix leaven and water together</p>
+            <img
+              class="step-image"
+              src="images/combine-water-mix.jpeg"
+              alt="Mix water and leaven together"
+            />
+          </li>
+          <li>
+            <p>Add water/leaven mix to the flour</p>
+            <img
+              class="step-image"
+              src="images/combine-mixture.jpeg"
+              alt="Add water/leaven mix to the flour"
+            />
+          </li>
+          <li>
+            <p>Combine the mix, let it sit for 25-30 minutes at approx. 78°F (26°C)</p>
+            <img
+              class="step-image"
+              src="images/rough-mix.jpeg"
+              alt="Combine the mixture"
+            />
+          </li>
+        </section>
+
+        <section class="recipe-section" , id="instructions">
+        <h3>After first rest period</h3>
+        <ol>
+          <li>
+            <p>Measure 50g of water.</p>
+            <img
+              class="step-image"
+              src="images/50g-water.jpeg"
+              alt="50g of water"
+            />
+          </li>
+          <li>
+            <p>Measure 20g of salt</p>
+            <img
+              class="step-image"
+              src="images/20g-salt.jpeg"
+              alt="20g of salt"
+            />
+          </li>
+          
+          <li>
+            <p>Add salt and water to the dough</p>
+            <img
+              class="step-image"
+              src="images/add-salt-water.jpeg"
+              alt="Add salt and water into the mixture"
+            />
+          </li>
+          <li>
+            <p>Mix thoroughly. Let it sit for another 25-30 minutes.</p>
+            <img
+              class="step-image"
+              src="images/flip.jpeg"
+              alt="Mix salt and water into the mixture"
+            />
+          </li>
+          <li>
+            <p>Set some leaven aside as your new starter and refrigerate</p>
+            <img
+              class="step-image"
+              src="images/save-starter.jpeg"
+              alt="Set aside some leaven for starter"
+            />
+          </li>
+        </ol>
+        </section> 
+
+        <section class="recipe-section" , id="instructions"> 
+        <h3>Stretch and Fold</h3>
+        <p>
+          After the second rest period, stretch and fold the dough in the bowl. Do this
+          every 30 minutes for approx. 3 hours. In between folds, cover with a
+          damp towel. Maintain the dough temperature at around 78°F (26°C).
+        </p>
+        <div class="image-grid">
+        <img 
+          class="step-image"
+          src="images/stretch.jpeg"
+          alt="Stretch the dough"
+        />
+        <img
+          class="step-image"
+          src="images/folding.jpeg"
+          alt="Stretch and fold the dough"
+        />
+        <img 
+          class="step-image"
+          src="images/stretch-2.jpeg"
+          alt="Stretch and fold the dough"
+        />
+        <img
+          class="step-image"
+          src="images/folded.jpeg"
+          alt="Stretch and fold the dough"
+        />
+        </div>
+        </section>  
+        <section class="recipe-section" , id="instructions">
+        <h3>Shaping the dough</h3>
+        <ol>
+          <li>
+            <p>When the stretching and folding is complete, place mixture out onto
+            a floured surface</p>
+            <img
+              class="step-image"
+              src="images/turn-out.jpeg"
+              alt="Place the mixture on a floured surface"
+            />
+          </li>
+          <li>
+            <p>Divide the dough in half</p>
+            <img
+              class="step-image"
+              src="images/divide.jpeg"
+              alt="Divide the dough in half"
+            />
+            </li>
+          <li>
+            <p>Spread out the dough then fold from the sides</p>
+            <div class="image-grid">
+            <img
+              class="step-image"
+              src="images/spread.jpeg"
+              alt="Spread out the dough"
+            />
+            <img
+              class="step-image"
+              src="images/fold-sides.jpeg"
+              alt="Fold the dough together from the sides"
+            />
+            <img
+              class="step-image"
+              src="images/fold-sides2.jpeg"
+              alt="Fold the dough together from the sides"
+            />
+            <img
+              class="step-image"
+              src="images/fold-sides3.jpeg"
+              alt="Fold the dough together from the sides"
+            />
+            </div>
+          </li>
+          <li>
+            <p>Bring it together into a ball</p>
+            <img
+              class="step-image"
+              src="images/make-ball.jpeg"
+              alt="Bring the dough together into a ball"
+            />
+          </li>
+          <li>
+            <p>Gently form into a tight ball. Cover, let it sit for 30 minutes and repeat the shaping process (spreading,
+              folding, shaping etc.)</p>
+            <img
+              class="step-image"
+              src="images/formed-ball.jpeg"
+              alt="Shape the dough into a ball"
+            />
+          </li>
+          <li>
+            <p>Place the dough seam side up in a floured proofing basket, cover and
+            refrigerate overnight</p>
+            <img
+              class="step-image"
+              src="images/proofing-basket.jpeg"
+              alt="Place the dough seam side up in a floured proofing basket"
+            />
+          </li>
+        </ol>
+        </section>  
+        <section class="recipe-section" , id="instructions">
+        <h3>Day 3: Baking</h3>
+        <p class="description">
+          Preheat the oven to 500°F (260°C) with the Dutch oven inside for at
+          least one hour.
+        </p>
+        <ol>
+          <li>
+            <p>Dust the bottom of the loaf with corn flour</p>
+            <img
+              class="step-image"
+              src="images/dusting.jpeg"
+              alt="Dust the bottom of the loaf with corn flour"
+            />
+          </li>
+          <li>
+            <p>Place the loaf in the Dutch oven, score the top</p>
+            <img
+              class="step-image"
+              src="images/score.jpeg"
+              alt="Score the top of the loaf"
+            />
+          </li>
+          <li>
+            <p>Cover with lid and cook for 20 minutes</p>
+            <img
+              class="step-image"
+              src="images/bake.jpeg"
+              alt="Cover the loaf with a lid"
+            />
+          </li>
+          <li>
+            <p>After 20 minutes, remove the lid and lower the temperature to 400°F (200°C). Cook for another 20 minutes.</p>
+            <img
+              class="step-image"
+              src="images/remove-lid.jpeg"
+              alt="Remove lid and lower the temperature of the oven"
+            />
+          </li>
+    
+          <li>
+            <p>Remove from the oven and let it cool on a wire rack</p>
+            <img
+              class="step-image"
+              src="images/cool.jpeg"
+              alt="Cooling on a wire rack"
+            />
+          </li>
+          <li>
+            <p>Serve after a resting period (approx. 1-2 hrs.)</p>
+            <img
+              class="step-image"
+              src="images/sliced.jpeg"
+              alt="Sourdough bread ready to serve"
+            />
+          </li>
+        </ol>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
